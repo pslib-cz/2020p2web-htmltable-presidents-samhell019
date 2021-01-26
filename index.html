@@ -2,7 +2,7 @@
 <html lang="cs">
   <head>
     <meta charset="utf-8">
-    <title>ÄŚeĹˇtĂ­ a slovenĹˇtĂ­ prezidenti</title>
+    <title>Čeští a slovenští prezidenti</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       table{border-collapse: collapse;}
@@ -15,65 +15,111 @@
       .presidents .roky {background-color: #D7CCC8;}
       .presidents .cr {background-color: #90CAF9;}
       .presidents .sr {background-color: #F8BBD0;}
+      .presidents .čara {border-top: solid black;}
+      .presidents .šedá {color: grey;}
     </style>
   </head>
   <body>
     <table class="presidents">
-      <caption></caption>
+      <caption>Seznam prezidentů ČR a SR od roku 1989</caption>
+      <colgroup>
+        <col span="2" class="roky">
+        <col class="cr">
+        <col class="sr">
+        <col>
+      </colgroup>
 
       <thead>
         <tr>
-          <th>Od</th>
-          <th>Do</th>
-          <th class="cr">Česko</th>
-          <th class="sr">Slovensko</th>
+          <th >Od</th>
+          <th >Do</th>
+          <th >Česko</th>
+          <th >Slovensko</th>
           <th>Poznámka</th>
         </tr>
       </thead>
       <tbody class="komuniste">
         <tr>
-          <th>1975</th>
-          <th>1989</th>
-          <th colspan="2">Gustav Husák</th>
-          <th></th>
+          <th >1975</th>
+          <th >1989</th>
+          <td colspan="2">Gustav Husák</td>
+          <td></td>
         </tr>
       </tbody>
       <tbody class="spolecne">
         <tr>
-          <th>1989</th>
-          <th>1990</th>
-          <th colspan="2" rowspan="2">Václav Havel</th>
-          <th>Zvolen federálním shromážděním (s převahou poslanců KSČ)</th>
+          <th >1989</th>
+          <th >1990</th>
+          <td colspan="2" rowspan="2" >Václav Havel</td>
+          <td>Zvolen federálním schromážděním (s převahou poslanců KSČ)</td>
         </tr>
         <tr>
-          <th>1990</th>
-          <th>1992</th>
-          <th>31. prosince 1992 zaniká Česko-slovenská Federativní republika</th>
+          <th >1990</th>
+          <th >1992</th>
+          <td>31. prosince 1992 zaniká Česko-Slovenská Federativní Republika</td>
 
         </tr>
       </tbody>
       <tbody>
         <tr>
-          <th>1993</th>
-          <th>1998</th>
-          <th rowspan="3">Václav Havel</th>
-          <th>Michal Kováč</th>
+          <th >1993</th>
+          <th >1998</th>
+          <td rowspan="3" >Václav Havel</td>
+          <td >Michal Kováč</td>
+          <td></td>
         </tr>
         <tr>
-          <th>1998</th>
-          <th>1999</th>
-          <th>bez prezidenta</th>
-          <th>Na Slovensku v této době  byli pověřeni prezidentskými pravomocemi tehdejší premiéři</th>
+          <th >1998</th>
+          <th >1999</th>
+          <td class="šedá">bez prezidenta</td>
+          <td class="šedá">Na Slovensku v této době byli pověřeni prezidentskými pravomocemi tehdejší premiéři</td>
         </tr>
         <tr>
-          <th>1999</th>
-          <th>2003</th>
-          <th rowspan="2">Rudolf Schuster</th>
-          <th></th>
+          <th >1999</th>
+          <th >2003</th>
+          <td rowspan="2" class="sr">Rudolf Schuster</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th >2003</th>
+          <th >2004</th>
+          <td rowspan="2" class="cr">Václav Klaus</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th >2004</th>
+          <th >2013</th>
+          <td rowspan="2" >Ivan Gašparovič</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th >2013</th>
+          <th >2014</th>
+          <td rowspan="3" >Miloš Zeman</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th >2014</th>
+          <th >2019</th>
+          <td >Andrej Kiska</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th >2019</th>
+          <th >dosud</th>
+          <td >Zuzana Čaputová</td>
+          <td></td>
         </tr>
       </tbody>
-
+      <tfoot class="čara">
+        <tr>
+          <th  colspan="2">Počet</th>
+          <td >2+3</td>
+          <td >2+5</td>
+          <td></td>
+        </tr>
       </tfoot>
+
     </table>
   </body>
 </html>
